@@ -13,9 +13,9 @@ body {
       .navbar {
         overflow: hidden;
         background-color: #333;
-        position: fixed; /* Set the navbar to fixed position */
-        top: 0; /* Position the navbar at the top of the page */
-        width: 100%; /* Full width */
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
         text-align: center;
       
       }
@@ -32,15 +32,21 @@ body {
           text-align: center;
           padding-top: 12px;
           letter-spacing: 1.5px;
-      }
+          
+          }
+
+         
   
       .info {
           justify-content: center;
-          padding-bottom: 25px;
+          padding: 8px;
           font-size: larger;
-          width: 75%;
-          margin-left: 150px;
+          width: auto;
+          margin-left: 80px;
+          margin-right: 80px;
           line-height: 1.5rem;
+          border:#333 solid 2px;
+          box-shadow: 5px 5px 5px 5px #00FF00;
       }
 
      
